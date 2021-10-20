@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "antishulkerdupe",
+  "version": "${version}",
+  "name": "Antishulkerdupe",
+  "description": "Patches 1.17.1 shulker dupe",
+  "authors": [
+    "Potatoboy9999"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/antishulkerdupe/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.potatopresident.antishulkerdupe.Antishulkerdupe"
+    ]
+  },
+  "mixins": [
+    "antishulkerdupe.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "minecraft": ">=1.17"
+  }
+}

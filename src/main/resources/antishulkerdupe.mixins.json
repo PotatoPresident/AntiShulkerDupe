@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.potatopresident.antishulkerdupe.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ShulkerBoxBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
